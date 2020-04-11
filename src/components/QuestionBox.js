@@ -2,8 +2,8 @@ import React from 'react'
 
 const QuestionBox = () => {
     return (
-        <div>
-            
+        <div className="questionBox">
+            <div className="question">{question}</div>
         </div>
     )
 }
