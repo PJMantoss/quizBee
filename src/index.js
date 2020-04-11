@@ -8,7 +8,7 @@ class QuizBee extends Component {
   state = {
     questionBank: [],
     score: 0,
-    reponses: 0
+    responses: 0
   }
 
   getQuestions = () => {
@@ -23,7 +23,7 @@ class QuizBee extends Component {
     if (answer === correctAnswer){
       this.setState({
         score: this.state.score + 1
-      })
+      });
     }
 
     this.setState({
@@ -45,9 +45,12 @@ class QuizBee extends Component {
                 question={question} 
                 options={answers} 
                 key={questionId} 
+                seleccted={answer => this.computeAnswer(answer, correct)}
             />
           )
         )}
+
+        {this.state.responses === 5 ? (<h2>{this.state.score}</h2>) : null}
       </div>
     )
   }
