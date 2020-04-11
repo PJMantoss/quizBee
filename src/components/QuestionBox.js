@@ -6,6 +6,13 @@ const QuestionBox = ({question, options}) => {
     return (
         <div className="questionBox">
             <div className="question">{question}</div>
+            {
+                answer.map((text, index) => (
+                    <button key={index} className="answerBtn">
+                        {text}
+                    </button>
+                ))
+            }
         </div>
     )
 }
