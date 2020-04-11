@@ -1,6 +1,8 @@
-import React from 'react'
+import React, { useState } from 'react'
 
-const QuestionBox = () => {
+const QuestionBox = ({question, options}) => {
+    const [answer, setAnswer] = useState(options);
+
     return (
         <div className="questionBox">
             <div className="question">{question}</div>
