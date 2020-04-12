@@ -1,3 +1,8 @@
+QuizBee is a quiz app built using key features of React JS such as state variables, Lifecycle methods and the Hooks API. It's styled with CSS.
+
+Date: 11-Apr-2020
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
