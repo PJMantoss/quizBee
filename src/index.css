@@ -35,21 +35,6 @@
   margin-bottom: 5px;
 }
 
-@media(max-width: 700px){
-  .container {
-    width: auto;
-    height: auto;
-  }
-
-  .title {
-    font-size: 28px;
-  }
-
-  .question {
-    font-size: 15px;
-  }
-}
-
 .questionBox {
   position: relative;
   border: 1px solid rgba(0, 0, 0, 0.2);
@@ -72,6 +57,26 @@
   font-weight: bold;
   border-radius: 4px;
   cursor: pointer;
+}
+
+@media(max-width: 700px){
+  .container {
+    width: auto;
+    height: auto;
+  }
+
+  .title {
+    font-size: 28px;
+  }
+
+  .question {
+    font-size: 15px;
+  }
+
+  .questionBox {
+    margin-top: 3px;
+    padding: 12px;
+  }
 }
 
 .score-board {
