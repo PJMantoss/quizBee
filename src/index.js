@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import quizService from './quizService';
 import QuestionBox from './components/QuestionBox';
+import Result from './components/Result';
 
 class QuizBee extends Component {
   state = {
