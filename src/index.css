@@ -32,14 +32,32 @@
   background-color: rgba(0, 0, 0, 1);
   color: rgb(255, 255, 255);
   padding: 20px;
-  font-size: 1.8em;
+  font-size: 38px;
   border-radius: 5px;
 }
 
+@media(max-width: 700px){
+  .container {
+    width: auto;
+    height: auto;
+  }
+}
+
 .question {
-  font-size: 1.2em;
+  font-size: 18px;
   font-weight: bold;
   margin-bottom: 5px;
+}
+
+@media(max-width: 700px){
+  .container {
+    width: auto;
+    height: auto;
+  }
+
+  .title {
+    font-size: 15px;
+  }
 }
 
 .questionBox {
