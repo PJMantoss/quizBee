@@ -45,7 +45,7 @@ class QuizBee extends Component {
                 question={question} 
                 options={answers} 
                 key={questionId} 
-                seleccted={answer => this.computeAnswer(answer, correct)}
+                selected={answer => this.computeAnswer(answer, correct)}
             />
           )
         )}
