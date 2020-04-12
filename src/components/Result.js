@@ -2,9 +2,9 @@ import React from 'react'
 
 export default function Result({score, playAgain}) {
     return (
-        <div>
-            <div></div>
-            <button></button>
+        <div className="score-board">
+            <div className="score"></div>
+            <button className="playBtn"></button>
         </div>
     )
 }
