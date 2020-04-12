@@ -20,6 +20,13 @@
   margin: 50px auto;
 }
 
+@media(max-width: 700px){
+  .container {
+    width: auto;
+    height: auto;
+  }
+}
+
 .title {
   position: relative;
   background-color: rgba(0, 0, 0, 1);
