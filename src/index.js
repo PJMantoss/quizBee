@@ -50,7 +50,9 @@ class QuizBee extends Component {
           )
         )}
 
-        {this.state.responses === 5 ? (<h2>{this.state.score}</h2>) : null}
+        {this.state.responses === 5 ? 
+        (<Result score={this.state.score} playAgain={this.playAgain} />) : 
+        null}
       </div>
     )
   }
