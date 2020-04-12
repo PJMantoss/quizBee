@@ -4,6 +4,7 @@ import './index.css';
 import quizService from './quizService';
 import QuestionBox from './components/QuestionBox';
 import Result from './components/Result';
+import Footer from './components/Footer';
 
 class QuizBee extends Component {
   state = {
@@ -63,6 +64,7 @@ class QuizBee extends Component {
         {this.state.responses === 5 ? 
         (<Result score={this.state.score} playAgain={this.playAgain} />) : 
         null}
+        <Footer />
       </div>
     )
   }

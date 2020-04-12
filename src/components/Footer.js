@@ -1,7 +1,6 @@
 import React from 'react'
-import './index.css'
 
-export const Footer = () => {
+const Footer = () => {
     return (
         <div>
             <div id="love">
@@ -12,3 +11,5 @@ export const Footer = () => {
         </div>
     )
 }
+
+export default Footer
